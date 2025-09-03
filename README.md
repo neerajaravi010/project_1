@@ -73,3 +73,51 @@ The project uses three CSV files:
  * Stratified KFold: Ensures balanced class distribution
  * Grid Search: Hyperparameter optimization
  * Multiple folds: Robust performance estimation
+
+##  Installation & Setup
+ **Prerequisites**
+ pip install torch torch_geometric
+ pip install tensorflow transformers
+ pip install scikit-learn xgboost
+ pip install pandas numpy matplotlib seaborn
+ pip install nltk
+ **Required Files**
+ Ensure you have the following CSV files in your project directory:
+ * training.csv
+ * validation.csv
+ * test.csv
+
+**Usage**
+1. Clone the repository
+2. Install dependencies using the requirements above
+3. Place your dataset files in the project directory
+4. Run the Jupyter notebook Neeraja_Ravi_10632860.ipynb
+5. Execute cells sequentially to train and evaluate all models
+
+ **Key Features**
+ * Automated preprocessing pipeline
+ * Hyperparameter optimization for all models
+ * Cross-validation for robust evaluation
+ * Comparative analysis across different approaches
+ * Visualization of data distribution and results
+
+ **Model Architecture Details**
+ BERT Transformer
+ - Pre-trained: bert-base-uncased
+ - Max sequence length: 64 tokens
+ - Fine-tuning: 5 epochs
+ - Optimizer: Adam
+ - Loss: Sparse categorical crossentropy
+ Capsule Network
+ - Embedding dimension: 128
+ - Conv1D filters: 256, kernel_size=3
+ - Capsule dimensions: [5,10] × 16
+ - Routing iterations: 2
+ - Dropout rate: 0.2
+ GCN Architecture
+- Input features: TF-IDF vectors
+- Hidden dimensions: [32, 64]
+- Output classes: 6-
+- Learning rates: [0.01, 0.001]
+- Dropout: 0.5
+
