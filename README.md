@@ -7,3 +7,39 @@ The project uses three CSV files:
 1. training.csv - Training dataset
 2. validation.csv - Validation dataset
 3. test.csv - Test dataset
+## Dataset Structure:
+1. Input: Text data (emotional expressions/sentences)
+2. Output: Emotion labels 05 corresponding to the six emotions)
+3. Classes: 6 emotion categories
+ 0 Sadness
+ 1 Joy
+ 2 Love
+ 3 Anger
+ 4 Fear
+ 5 Surprise
+## Models Implemented
+1. **BERT Transformer Model**
+ * Pre-trained BERT-base-uncased model
+ * Fine-tuned for sequence classification
+ * Uses BertTokenizer for text preprocessing
+ * Implements padding and sequence truncation (max_len=64
+2. **Capsule Network with CNN**
+ * Custom capsule network architecture
+ * Combines Conv1D layers with capsule routing
+ * Implements spatial dropout and layer normalization
+ * Hyperparameter tuning with cross-validation
+3. **Graph Convolutional Network GCN**
+ * PyTorch Geometric implementation
+ * Two-layer GCN with ReLU activation
+ * Dropout regularization
+ * TFIDF feature extraction for graph node features
+4. **XGBoost Classifier**
+ * Gradient boosting implementation
+ * TFIDF vectorization pipeline
+ * Grid search optimization for hyperparameters
+ * Cross-validation for model selection
+5. **Random Forest Classifier**
+ * Ensemble learning approach
+ * TFIDF feature extraction
+ * Hyperparameter tuning with GridSearchCV
+ * Weighted evaluation metrics
