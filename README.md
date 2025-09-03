@@ -141,6 +141,7 @@ The project uses three CSV files:
  * Hyperparameter optimization for all models
 
  **Contributing**
+ 
  Feel free to fork this project and submit pull requests for improvements. Areas for contribution:
  * Additional model implementations
  * Performance optimization
