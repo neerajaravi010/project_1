@@ -52,7 +52,7 @@ The project uses three CSV files:
  * XGBoost: For gradient boosting
  * NLTK: For text preprocessing (stemming)
 
-   **Data Processing**
+ **Data Processing**
  * Pandas: Data manipulation and analysis
  * NumPy: Numerical computations
  * CountVectorizer & TF IDF: Text feature extraction
@@ -68,6 +68,7 @@ The project uses three CSV files:
  * Precision: Weighted precision across classes
  * Recall: Weighted recall across classes
  * F1Score: Weighted F1-score for balanced evaluation
+
 **Cross-Validation Strategy**
  * Stratified KFold: Ensures balanced class distribution
  * Grid Search: Hyperparameter optimization
