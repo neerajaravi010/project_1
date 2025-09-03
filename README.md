@@ -43,3 +43,30 @@ The project uses three CSV files:
  * TFIDF feature extraction
  * Hyperparameter tuning with GridSearchCV
  * Weighted evaluation metrics
+## Technical Stack
+ **Core Libraries**
+ * PyTorch & PyTorch Geometric: For GCN implementation
+ * TensorFlow/Keras: For CNN and Transformer models
+ * Transformers Hugging Face): For BERT implementation
+ * Scikit-learn: For traditional ML models and preprocessing
+ * XGBoost: For gradient boosting
+ * NLTK: For text preprocessing (stemming)
+**Data Processing**
+ * Pandas: Data manipulation and analysis
+ * NumPy: Numerical computations
+ * CountVectorizer & TF IDF: Text feature extraction
+ * BERT Tokenizer: Advanced text tokenization
+ **Visualization & Analysis**
+ * Matplotlib & Seaborn: Data visualization
+ * Label distribution analysis
+ * Performance metrics visualization
+## Model Evaluation
+ Each model is evaluated using comprehensive metrics:
+ * Accuracy: Overall classification accuracy
+ * Precision: Weighted precision across classes
+ * Recall: Weighted recall across classes
+ * F1Score: Weighted F1-score for balanced evaluation
+ **Cross-Validation Strategy**
+ * Stratified KFold: Ensures balanced class distribution
+ * Grid Search: Hyperparameter optimization
+ * Multiple folds: Robust performance estimation
