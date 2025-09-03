@@ -102,10 +102,10 @@ The project uses three CSV files:
  * Visualization of data distribution and results
 
  **Model Architecture Details**
- 
-`Pre-trained: bert-base-uncased
- Max sequence length: 64 tokens
- Fine-tuning: 5 epochs
- Optimizer: Adam
- Loss: Sparse categorical crossentropy`
+ BERT Transformer
+ *Pre-trained: bert-base-uncased
+ *Max sequence length: 64 tokens
+ *Fine-tuning: 5 epochs
+ *Optimizer: Adam
+ *Loss: Sparse categorical crossentropy
 
