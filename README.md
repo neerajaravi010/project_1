@@ -111,20 +111,21 @@ The project uses three CSV files:
 * Loss: Sparse categorical crossentropy
 
  **Capsule Network**
-* Embedding dimension: 128-
-* Conv1D filters: 256, kernel_size=3-
-* Capsule dimensions: [5,10] × 16-
-* Routing iterations: 2-
+* Embedding dimension: 128
+* Conv1D filters: 256, kernel_size=3
+* Capsule dimensions: [5,10] × 16
+* Routing iterations: 2
 * Dropout rate: 0.2
 
  **GCN Architecture**
-* Input features: TF-IDF vectors-
-* Hidden dimensions: [32, 64]-
-* Output classes: 6-
-* Learning rates: [0.01, 0.001]-
+* Input features: TF-IDF vectors
+* Hidden dimensions: [32, 64]
+* Output classes: 6
+* Learning rates: [0.01, 0.001]
 * Dropout: 0.5
 
  **Research Methodology**
+ 
  This project implements a comparative machine learning approach for emotion classification:
 1. Data Exploration: Analysis of emotion label distribution
 2. Preprocessing Pipeline: Text tokenization, padding, and feature extraction
