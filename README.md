@@ -132,12 +132,14 @@ The project uses three CSV files:
 4. Hyperparameter Tuning: Grid search and cross-validation
 5. Performance Evaluation: Comprehensive metrics comparison
 6. Results Analysis: Model performance comparison and insights
+
  **Key Contributions**
  * Multi-model comparison for emotion classification
  * Implementation of cutting-edge models BERT, GCN, Capsule Networks)
  * Robust evaluation framework with cross-validation
  * Comprehensive preprocessing pipeline
  * Hyperparameter optimization for all models
+
  **Contributing**
  Feel free to fork this project and submit pull requests for improvements. Areas for contribution:
  * Additional model implementations
