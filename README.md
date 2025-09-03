@@ -44,7 +44,7 @@ The project uses three CSV files:
  * Hyperparameter tuning with GridSearchCV
  * Weighted evaluation metrics
 ## Technical Stack
- **Core Libraries**
+**Core Libraries**
  * PyTorch & PyTorch Geometric: For GCN implementation
  * TensorFlow/Keras: For CNN and Transformer models
  * Transformers Hugging Face): For BERT implementation
@@ -56,7 +56,7 @@ The project uses three CSV files:
  * NumPy: Numerical computations
  * CountVectorizer & TF IDF: Text feature extraction
  * BERT Tokenizer: Advanced text tokenization
- **Visualization & Analysis**
+**Visualization & Analysis**
  * Matplotlib & Seaborn: Data visualization
  * Label distribution analysis
  * Performance metrics visualization
@@ -66,7 +66,7 @@ The project uses three CSV files:
  * Precision: Weighted precision across classes
  * Recall: Weighted recall across classes
  * F1Score: Weighted F1-score for balanced evaluation
- **Cross-Validation Strategy**
+**Cross-Validation Strategy**
  * Stratified KFold: Ensures balanced class distribution
  * Grid Search: Hyperparameter optimization
  * Multiple folds: Robust performance estimation
