@@ -51,12 +51,14 @@ The project uses three CSV files:
  * Scikit-learn: For traditional ML models and preprocessing
  * XGBoost: For gradient boosting
  * NLTK: For text preprocessing (stemming)
-**Data Processing**
+
+   **Data Processing**
  * Pandas: Data manipulation and analysis
  * NumPy: Numerical computations
  * CountVectorizer & TF IDF: Text feature extraction
  * BERT Tokenizer: Advanced text tokenization
-**Visualization & Analysis**
+ 
+ **Visualization & Analysis**
  * Matplotlib & Seaborn: Data visualization
  * Label distribution analysis
  * Performance metrics visualization
